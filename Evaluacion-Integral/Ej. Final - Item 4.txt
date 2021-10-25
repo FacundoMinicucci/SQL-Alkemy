@@ -1,0 +1,21 @@
+Tabla PROFESOR
+
+Indice clousterizados -> id INT
+No tiene índices no clousterizados.
+
+
+Tabla CURSO
+
+Indice clousterizado -> código INT
+Indices no clousterizados -> PROFESOR_id INT
+
+
+Tabla INSCRIPCION
+
+Indice clousterizado -> número INT
+Indices no clousterizados -> CURSO_código INT, ESTUDIANTE_legajo INT
+
+
+Tabla ESTUDIANTE
+Indice clousterizado -> legajo INT
+No tiene índices no clousterizados.
